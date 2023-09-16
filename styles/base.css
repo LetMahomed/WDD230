@@ -1,0 +1,45 @@
+body {
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #e9edc9;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: #e9edc9;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+img {
+    size: 10%;
+}
+nav li:hover {
+    background-color: #fefae0;
+    border: 1px solid #faedcd;
+
+}
+
+nav .active {
+    background-color: #F5E6E8;
+}
+nav li {
+    padding: 1cm;
+    
+}
+footer {
+    text-align: center;
+}
