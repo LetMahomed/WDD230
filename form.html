@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/form.css rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/let.jpeg" alt="me" width="162" height="150">
+        <h1>Leticia</h1>
+    </header>
+    <nav>
+        <ul>
+            <li class="active"><a href=""></a>Home</li>
+            <li><a href="https://letmahomed.github.io/wdd230/week01/chamber-site-plan.html"></a>Chamber</li>
+            <li><a href=""></a>Site Plan</li>
+            <li><a href=""></a>Form</li>
+        </ul>
+    </nav>
+    <main> 
+        <section>
+            <form method="get" action="record.html">
+                <label>Ubername* <input type="text" id="username" name="username" required></label>
+                <label>Password* <input type="password" id="password" name="password" pattern"[A-Za_z0_9](8,)" required></label>
+                <label>Password Repeat* <input type="password" id="passwordrepeat" name="passwordrepeat" required></label>
+                <label>Email* <input type="email" id="email" name="email" required pattern=".+@byui\.edu" title="Please enter a valid email address"></label>
+                <label>Rating* <input type="range" id="rating" min="1" max="10" value="5" step="1"</label>
+                <datalist id="rangevalue">
+                    <option value="1">1</option>
+                </datalist>
+                <input type="submit" value="Sign up" class="submission"> 
+
+            </form>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="copyright-year"></span>  
+            Letícia Mahomed
+            Brasil
+            <img src="images/brazilianflag.png" alt="flag" width="75" height="75">
+            <p>Last modified: <span id="last-modified"></span></p>
+        </p>
+
+    </footer>
+</body>
+</html>
