@@ -1,4 +1,5 @@
 img{
+    display: block;
     background: #000;
     animation: fade 15s;
 }
