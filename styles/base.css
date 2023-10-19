@@ -43,3 +43,7 @@ nav li {
 footer {
     text-align: center;
 }
+#discover-main {
+    margin: auto;
+    margin-top: 3rem;
+}
