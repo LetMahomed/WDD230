@@ -1,0 +1,11 @@
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+membership {
+    grid-column: 1 / span 2;
+}
+benefits {
+    grid-column: 2 / span 3;
+}

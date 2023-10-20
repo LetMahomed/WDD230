@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Letícia"/>
+    <meta name="description" content= "Letícia Mahomed - WDD 230 - Web Frontend Development"/>
+    <meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title"              content="Home Page"/>
+    <meta property="og:description"        content="Home Page"/>
+    <meta property="og:image"              content="images/let.jpeg"/>
+    <link rel="icon" href="images/let - cópia.jpeg - cópia.png">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/let - cópia.jpeg" alt="me" width="162" height="150">
+        <h1>Leticia</h1>
+    </header>
+    <nav>
+        <ul>
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="https://letmahomed.github.io/wdd230/week01/chamber-site-plan.html">Chamber</a></li>
+            <li><a href="">Site Plan</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <form method="get" action="thankyou.html">
+
+            <label class="firstname">First Name* <input type="text" id="firstname" name="firstname" required></label>
+            <label>Last Name* <input type="text" id="lastname" name="lastname" required></label>
+            <label>Position* <input type="text" id="position" name="position" required pattern="[A-Za_z -]{7,}"></label>
+            <label>Email* <input type="email" id="email" name="email" title="Please enter a valid email address"></label>
+            <label>Phone Number* <input type="tel" id="phonenumber" name="phonenumber" required></label>
+            <label>Business* <input type="text" id="business" name="business" required></label>
+            <label>Business Description* <input type="text" id="businessdescription" name="businessdescription" required></label>
+
+            <section class="membership">
+            <fieldset>
+
+                <legend>Membership level</legend>
+            
+                <div>Choose one:</div>
+            
+                <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
+            
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+            
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membershipg</label>
+            
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+            
+            </fieldset>
+            </section>
+            <section class="benefits">
+            <h3>Benefits</h3>
+            </section>
+            <input type="hidden" id="timestamp" name="timestamp"></input>
+            <input type="submit" id="button" name="button" value="Congratulations"></input>
+
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy;<span id="copyright-year"></span>  
+            Letícia Mahomed
+            Brasil
+            <img src="images/brazilianflag - cópia.png" alt="flag" width="75" height="75">
+            <p>Last modified: <span id="last-modified"></span></p>
+        </p>
+
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>
+
+
